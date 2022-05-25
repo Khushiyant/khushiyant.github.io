@@ -1,0 +1,682 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--=============== LINE ICONS ===============-->
+    <link rel="stylesheet" href="https://cdn.lineicons.com/3.0/lineicons.css">
+    <link rel="icon"
+        href="https://img.icons8.com/external-flatart-icons-flat-flatarticons/64/000000/external-coding-web-flatart-icons-flat-flatarticons-1.png">
+
+    <!--=============== SWIPER CSS ===============-->
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css">
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <title>Kode In</title>
+</head>
+
+<body>
+    <!--=============== HEADER ===============-->
+    <header class="header" id="header">
+        <!-- nav -->
+        <nav class="nav container padd-15">
+            <!-- nav logo -->
+            <a href="#" class="nav-logo">
+                <h2>&lt/KoDe&gt</h2>
+            </a>
+            <!-- nav menu -->
+            <div class="nav-menu" id="nav-menu">
+                <!-- nav list -->
+                <ul class="nav-list">
+                    <li class="nav-item">
+                        <a href="#home" class="nav-link active-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#experience" class="nav-link">Experience</a>
+                    </li>
+                    <!-- <li class="nav-item">
+                        <a href="#pricing" class="nav-link">Pricing</a>
+                    </li> -->
+                    <li class="nav-item">
+                        <a href="#portfolio" class="nav-link">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link">Contact</a>
+                    </li>
+                </ul>
+                <!-- nav close -->
+                <div class="nav-close" id="nav-close">
+                    <i class="lni lni-close"></i>
+                </div>
+            </div>
+            <!-- nav btn -->
+            <div class="nav-btns">
+                <!-- theme change btn -->
+                <i class="lni lni-pallet change-theme" id="theme-button"></i>
+                <!-- toggle btn -->
+                <div class="nav-toggle" id="nav-toggle">
+                    <i class="lni lni-grid-alt"></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!--=============== MAIN ===============-->
+    <main class="main-content">
+        <!--=============== HOME ===============-->
+        <section class="home" id="home">
+            <div class="container">
+                <!-- intro -->
+                <div class="intro">
+                    <!-- avatar image -->
+                    <img src="assets/img/avatar-2.svg" alt="Khushiyant">
+                    <!-- info -->
+                    <h1>Khushiyant</h1>
+                    <span>I'm a <span class="info-text">Python developer</span></span>
+                    <!-- social icons -->
+                    <ul class="social-icons">
+                        <li><a href="https://twitter.com/khushiyant2002"><i class="lni lni-twitter-original"></i></a>
+                        </li>
+                        <li><a href="https://ipuranklist.com/student/08215002720"><i class="lni lni-graduation"></i></a>
+                        </li>
+                        <li><a href="https://github.com/Khushiyant"><i class="lni lni-github-original"></i></a></li>
+                        <li><a href="https://www.codechef.com/users/khushiyant"><i class="lni lni-code"></i></a></li>
+                        <li><a href="https://www.linkedin.com/in/khushiyant/"><i
+                                    class="lni lni-linkedin-original"></i></a></li>
+                    </ul>
+                    <!-- button -->
+                    <div>
+                        <!-- Under Dev -->
+                        <a href="#contact" class="btn btn-default" id="hire-me" onclick="hireMe()">Hire me</a>
+                    </div>
+                    <!-- scroll down mouse wheel -->
+                    <div class="scroll-down">
+                        <a href="#" class="mouse-wrapper">
+                            <span>Scroll Down</span>
+                            <span class="mouse">
+                                <span class="wheel"></span>
+                            </span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--=============== About ===============-->
+        <section class="about section" id="about">
+            <div class="container">
+                <!-- section title -->
+                <h2 class="section-title padd-15">About Me</h2>
+                <div class="row">
+                    <div class="about-img padd-15">
+                        <!-- avatar img -->
+                        <img src="assets/img/reshot-icon-glasses-boy-NKVPTGYBED.svg" height=90% width=90%>
+                    </div>
+                    <div class="about-content padd-15">
+                        <div class="rounded">
+                            <div class="row">
+                                <div class="about-text padd-15">
+                                    <!-- about text -->
+                                    <p>I'm student at M.S.I.T. and pursuing B.Tech. in CSE .I have experience with
+                                        languages like Python, C++ alongside, with technologies related to OpenCV, ML
+                                        and AI. </p>
+                                    </p>
+                                    <div>
+                                        <a href="https://docs.google.com/document/d/1bZC4Gkk2ksQnjH2OO_HcICDkXTGoOeXWqJUbqXS6jU8/edit?usp=sharing"
+                                            class="btn btn-default">Download CV</a>
+                                    </div>
+                                </div>
+                                <div class="skills padd-15">
+                                    <div class="row">
+                                        <!-- skill item -->
+                                        <div class="skill-item">
+                                            <h4>Python</h4>
+                                            <div class="progress">
+                                                <div class="progress-in"
+                                                    style="width: 95%; background: rgb(255,209,92);"></div>
+                                                <div class="skill-percent">95%</div>
+                                            </div>
+                                        </div>
+                                        <!-- skill item -->
+                                        <div class="skill-item">
+                                            <h4>Data Science</h4>
+                                            <div class="progress">
+                                                <div class="progress-in"
+                                                    style="width: 80%; background: rgb(255,76,96);"></div>
+                                                <div class="skill-percent">80%</div>
+                                            </div>
+                                        </div>
+                                        <!-- skill item -->
+                                        <div class="skill-item">
+                                            <h4>Data Analysis & OpenCV</h4>
+                                            <div class="progress">
+                                                <div class="progress-in"
+                                                    style="width: 90%; background: rgb(108,108,229);"></div>
+                                                <div class="skill-percent">90%</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <!-- fact item -->
+                    <div class="fact-item padd-15">
+                        <i class="lni lni-thumbs-up"></i>
+                        <div class="details">
+                            <h3>15+</h3>
+                            <p>Project done</p>
+                        </div>
+                    </div>
+                    <!-- fact item -->
+                    <div class="fact-item padd-15">
+                        <i class="lni lni-coffee-cup"></i>
+                        <div class="details">
+                            <h3>2</h3>
+                            <p>Cup of coffee</p>
+                        </div>
+                    </div>
+                    <!-- fact item -->
+                    <div class="fact-item padd-15">
+                        <i class="lni lni-users"></i>
+                        <div class="details">
+                            <h3>20+</h3>
+                            <p>Satisfied clients</p>
+                        </div>
+                    </div>
+                    <!-- fact item -->
+                    <div class="fact-item padd-15">
+                        <i class="lni lni-cup"></i>
+                        <div class="details">
+                            <h3>2</h3>
+                            <p>5 Star rated</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--=============== Services ===============-->
+        <section class="services section">
+            <div class="container">
+                <!-- section title -->
+                <h2 class="section-title padd-15">Skills</h2>
+                <div class="row">
+                    <!-- service item -->
+                    <div class="service-item padd-15">
+                        <div class="service-item-inner" style="background: rgb(108,108,229);">
+                            <a
+                                href="https://www.youtube.com/watch?v=s6O90dwR0sA&list=PLx0XvIOQFO4BFNun5FX7421eJ-koeGM2B">
+                                <img src="assets/img/python-icon.svg" alt="">
+                                <h3>Python Development</h3>
+                                <p>I have worked in python with technologies/frameworks such as OpenCV, sklearn,
+                                    Web-Scrapping.</p>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- service item -->
+                    <div class="service-item padd-15">
+                        <div class="service-item-inner" style="background: rgb(249,215,76);">
+                            <a
+                                href="https://www.youtube.com/watch?v=kbBF9hv0tOA&list=PLx0XvIOQFO4BatKJae0E3LFBr9tdeDtsL&ab_channel=KhushiyantChauhan">
+                                <img src="assets/img/service-2.svg" alt="">
+                                <h3>ML Applications</h3>
+                                <p>I have experience with experience with Ml and data engineering related technologies
+                                    such as Pandas, Colab, NumPy, Keras.</p>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- service item -->
+                    <div class="service-item padd-15">
+                        <div class="service-item-inner" style="background: rgb(249,123,139);">
+                            <a
+                                href="https://www.youtube.com/watch?v=zBhz9YUmN8g&list=PLx0XvIOQFO4DsjurVYBX4CNMnsKw1YEAp&ab_channel=KhushiyantChauhan">
+                                <img src="assets/img/service-3.svg" alt="">
+                                <h3>Image Processing & Task Automation</h3>
+                                <p>I'm well familiar with OpenCV and Matrix manipulation used for image processing and
+                                    CNN based models.</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="text padd-15">
+                    <p>Looking for a some job to be done? <a href="https://www.fiverr.com/khushiyant">Click here</a> to
+                        contact me! 👋
+                    </p>
+                </div>
+            </div>
+        </section>
+        <!--=============== Experience ===============-->
+        <section class="section" id="experience">
+            <div class="container">
+                <!-- section title -->
+                <div class="row">
+                    <!-- education -->
+                    <div class="education padd-15">
+                        <h2 class="section-title padd-15">Education</h2>
+                        <div class="row">
+                            <div class="timeline-box">
+                                <div class="timeline">
+                                    <!-- timeline item -->
+                                    <div class="timeline-item">
+                                        <i class="lni lni-graduation timeline-icon"></i>
+                                        <h3 class="timeline-date">
+                                            <i class="lni lni-calendar"></i> 2020 - Present
+                                        </h3>
+                                        <h3 class="timeline-title">Bachelor's Degree</h3>
+                                        <p class="timeline-text">Currently, maintaining 9.4+ CGPA while pursuing B.Tech.
+                                            in CSE from M.S.I.T.-Delhi.</p>
+                                    </div>
+                                    <!-- timeline item -->
+                                    <div class="timeline-item">
+                                        <i class="lni lni-graduation timeline-icon"></i>
+                                        <h3 class="timeline-date">
+                                            <i class="lni lni-calendar"></i> 2019 - 2020
+                                        </h3>
+                                        <h3 class="timeline-title">Intermediate</h3>
+                                        <p class="timeline-text">Cleared with 93.8% with Science Stream from M.K.
+                                            Convent School.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- experience -->
+                    <div class="experience padd-15">
+                        <h2 class="section-title padd-15">Experience</h2>
+                        <div class="row">
+                            <div class="timeline-box">
+                                <div class="timeline">
+
+                                    <!-- timeline item -->
+                                    <div class="timeline-item">
+                                        <i class="lni lni-briefcase timeline-icon"></i>
+                                        <h3 class="timeline-date">
+                                            <i class="lni lni-calendar"></i> 2022 - present
+                                        </h3>
+                                        <h3 class="timeline-title">Cheif Technical Officer</h3>
+                                        <p class="timeline-text">CTO at Sibilize, handling technical recruitment, data analysis and ML powered recommendation engine.</p>
+                                    </div>
+                                    <!-- Just replicate this to add more -->
+                                    <!-- timeline item -->
+                                    <div class="timeline-item">
+                                        <i class="lni lni-briefcase timeline-icon"></i>
+                                        <h3 class="timeline-date">
+                                            <i class="lni lni-calendar"></i> 2022 - present
+                                        </h3>
+                                        <h3 class="timeline-title">ML developer</h3>
+                                        <p class="timeline-text">ML developer at AR Tennis, working on developing tracking algorithm.</p>
+                                    </div>
+                                    <!-- Just replicate this to add more -->
+                                    <!-- timeline item -->
+                                    <div class="timeline-item">
+                                        <i class="lni lni-briefcase timeline-icon"></i>
+                                        <h3 class="timeline-date">
+                                            <i class="lni lni-calendar"></i> 2021 - 2022
+                                        </h3>
+                                        <h3 class="timeline-title">Python developer</h3>
+                                        <p class="timeline-text">Python developer at en wains, and worked on
+                                            automation, ml model Development and analysis.</p>
+                                    </div>
+                                    <!-- Just replicate this to add more -->
+                                    <!-- timeline item -->
+                                    <div class="timeline-item">
+                                        <i class="lni lni-briefcase timeline-icon"></i>
+                                        <h3 class="timeline-date">
+                                            <i class="lni lni-calendar"></i> 2021 - 2022
+                                        </h3>
+                                        <h3 class="timeline-title">Project Lead</h3>
+                                        <p class="timeline-text">Project Lead at IEEE, MSIT, worked on OpenCV based content rater and analyser.</p>
+                                    </div>
+                                    <!-- Just replicate this to add more -->
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--=============== Pricing ===============-->
+
+        <!--<section class="section pricing" id="pricing">
+            <div class="container">
+                <!-- section title - -> 
+                <h2 class="section-title padd-15">Pricing Plans</h2>
+                <div class="row">
+                    <!-- prices - ->
+                    <div class="prices">
+                        <div class="price-item">
+                            <img src="assets/img/price-1.svg" alt="">
+                            <h3 class="plan">Basic</h3>
+                            <p>A Simple option but powerful to manage your business</p>
+                            <p>Email support</p>
+                            <h3 class="price"><em>$</em>9<span>Month</span></h3>
+                            <a href="#" class="btn btn-default">Get Started</a>
+                        </div>
+                    </div>
+                    <!-- prices - ->
+                    <div class="prices">
+                        <div class="price-item best">
+                            <span class="badge">Recommended</span>
+                            <img src="assets/img/price-2.svg" alt="">
+                            <h3 class="plan">Premium</h3>
+                            <p>Unlimited product including app integration and more features</p>
+                            <p>Email support</p>
+                            <h3 class="price"><em>$</em>49<span>Month</span></h3>
+                            <a href="#" class="btn btn-default">Get Started</a>
+                        </div>
+                    </div>
+                    <!-- prices - ->
+                    <div class="prices">
+                        <div class="price-item">
+                            <img src="assets/img/price-3.svg" alt="">
+                            <h3 class="plan">Basic</h3>
+                            <p>A wise option for large companies and individuals</p>
+                            <p>24/7 support</p>
+                            <h3 class="price"><em>$</em>99<span>Month</span></h3>
+                            <a href="#" class="btn btn-default">Get Started</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section> -->
+        <!--=============== Portfolio ===============-->
+        <section class="portfolio section" id="portfolio">
+            <div class="container">
+                <!-- section title -->
+                <h2 class="section-title padd-15">Portfolio</h2>
+                <div class="row">
+                    <div class="portfolio-filter padd-15">
+                        <div class="portfolio-filter-inner">
+                            <button type="button" class="active" data-filter="all">Everything</button>
+                            <button type="button" data-filter="python">Python</button>
+                            <button type="button" data-filter="ds">Data Science</button>
+                            <button type="button" data-filter="opencv">Image Processing</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <!-- portfolio item -->
+                    <div class="portfolio-item padd-15" data-category="opencv">
+                        <div class="portfolio-item-inner">
+                            <div class="portfolio-item-thumbnail">
+                                <img src="assets/img/6.svg" alt="">
+                                <div class="mask"></div>
+                            </div>
+                            <span class="term">BS4</span>
+                            <h3 class="portfolio-item-title">News Collector</h3>
+                            <a href="https://github.com/Khushiyant/News-Collector">
+                                <span class="more-button">Watch</span>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- Just replicate above to add more -- Change data-catgory  -->
+                    <!-- portfolio item -->
+                    <div class="portfolio-item padd-15" data-category="opencv">
+                        <div class="portfolio-item-inner">
+                            <div class="portfolio-item-thumbnail">
+                                <img src="assets/img/5.svg" alt="">
+                                <div class="mask"></div>
+                            </div>
+                            <span class="term">OpenCV</span>
+                            <h3 class="portfolio-item-title">Edema Eye</h3>
+                            <a href="https://github.com/Khushiyant/edema-eye">
+                                <span class="more-button">Watch</span>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- Just replicate above to add more -- Change data-catgory  -->
+                    <!-- portfolio item -->
+                    <div class="portfolio-item padd-15" data-category="python">
+                        <div class="portfolio-item-inner">
+                            <div class="portfolio-item-thumbnail">
+                                <img src="assets/img/6.svg" alt="">
+                                <div class="mask"></div>
+                            </div>
+                            <span class="term">Machine Learning</span>
+                            <h3 class="portfolio-item-title">Chess Bot</h3>
+                            <a href="https://github.com/Khushiyant/chess-linear-ml">
+                                <span class="more-button">Watch</span>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- Just replicate above to add more -- Change data-catgory  -->
+                    <!-- portfolio item -->
+                    <div class="portfolio-item padd-15" data-category="python">
+                        <div class="portfolio-item-inner">
+                            <div class="portfolio-item-thumbnail">
+                                <img src="assets/img/3.svg" alt="">
+                                <div class="mask"></div>
+                            </div>
+                            <span class="term">YOLO</span>
+                            <h3 class="portfolio-item-title">CNN Detector</h3>
+                            <a href="https://github.com/Khushiyant/Junkyard_Cars_Detector">
+                                <span class="more-button">Watch</span>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- Just replicate above to add more -- Change data-catgory  -->
+                    <!-- portfolio item -->
+                    <div class="portfolio-item padd-15" data-category="ds">
+                        <div class="portfolio-item-inner">
+                            <div class="portfolio-item-thumbnail">
+                                <img src="assets/img/4.svg" alt="">
+                                <div class="mask"></div>
+                            </div>
+                            <span class="term">Data Analysis</span>
+                            <h3 class="portfolio-item-title">Text Analyzer</h3>
+                            <a href="https://github.com/Khushiyant/content-analyzer">
+                                <span class="more-button">Watch</span>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- Just replicate above to add more -- Change data-catgory  -->
+                </div>
+            </div>
+        </section>
+        <!--=============== Testimonial ===============-->
+        <section class="section">
+            <div class="container">
+                <!-- section title -->
+                <h2 class="section-title padd-15">Clients & Reviews</h2>
+                <!-- testimonial wrapper -->
+                <div class="swiper testimonial-wrapper">
+                    <div class="swiper-wrapper">
+                        <!-- testimonial item -->
+                        <div class="testimonial-item swiper-slide">
+                            <div class="thumb">
+                                <img src="assets/img/avatar-3.svg" alt="">
+                            </div>
+                            <h3>romannweiler</h3>
+                            <span class="subtitle">Doctoral Studies from Germany</span>
+                            <div class="comment">Very fast delivery with good quality.</div>
+                        </div>
+                        <!-- testimonial item -->
+                        <div class="testimonial-item swiper-slide">
+                            <div class="thumb">
+                                <img src="assets/img/avatar-1.svg" alt="">
+                            </div>
+                            <h3>hamza_cs0</h3>
+                            <span class="subtitle">Student at Pakistan University</span>
+                            <div class="comment">Seller is well experienced and exceeded my expectations. I would like
+                                to work again with him!</div>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+        </section>
+        <!--=============== Blog ===============-->
+        <section class="section">
+            <div class="container">
+                <!-- section title -->
+                <h2 class="section-title padd-15">Freelancing Services</h2>
+                <div class="row">
+                    <!-- blog item -->
+                    <div class="blog-item padd-15">
+                        <div class="inner">
+                            <div class="thumb">
+                                <a href="https://www.fiverr.com/khushiyant/train-ml-model-using-yolo-keras-tf"><span
+                                        class="category">ML</span></a>
+                                <a href="https://www.fiverr.com/khushiyant/train-ml-model-using-yolo-keras-tf"><img
+                                        src="assets/img/4.svg" alt=""></a>
+                            </div>
+                            <div class="details">
+                                <h3 class="title"><a
+                                        href="https://www.fiverr.com/khushiyant/train-ml-model-using-yolo-keras-tf">Train
+                                        Your Custom ML Model on YOLO</a></h3>
+                                <ul class="meta">
+                                    <li>November 2021</li>
+                                    <li>Khushiyant</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- blog item -->
+                    <div class="blog-item padd-15">
+                        <div class="inner">
+                            <div class="thumb">
+                                <a href="https://www.fiverr.com/khushiyant/task-automation-using-python"><span
+                                        class="category">Python</span></a>
+                                <a href="https://www.fiverr.com/khushiyant/task-automation-using-python"><img
+                                        src="assets/img/6.svg" alt=""></a>
+                            </div>
+                            <div class="details">
+                                <h3 class="title"><a
+                                        href="https://www.fiverr.com/khushiyant/task-automation-using-python">Task
+                                        automation by Python</a></h3>
+                                <ul class="meta">
+                                    <li>December 2021</li>
+                                    <li>Khushiyant</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <!--=============== Contact ===============-->
+        <section class="contact section" id="contact">
+            <div class="container">
+                <!-- section title -->
+                <h2 class="section-title padd-15">Contact us</h2>
+                <div class="row">
+                    <!-- contact box -->
+                    <div class="contact-box padd-15">
+                        <div class="contact-data">
+                            <!-- contact information -->
+                            <div class="contact-information">
+                                <h3 class="contact-subtitle">Call Me</h3>
+                                <span class="contact-description">
+                                    <i class="lni lni-phone contact-icon"></i>
+                                    +91 798-2415-528
+                                </span>
+                            </div>
+                            <!-- contact information -->
+                            <div class="contact-information">
+                                <h3 class="contact-subtitle">Write us by mail</h3>
+                                <span class="contact-description">
+                                    <i class="lni lni-user contact-icon"></i>
+                                    khushiyant2002@gmail.com
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- contact form -->
+                    <form action="" class="contact-form padd-15" method="POST">
+                        <!-- Formsubmit -->
+                        <div class="contact-inputs">
+                            <!-- contact content -->
+                            <div class="contact-content">
+                                <input type="email" class="contact-input" name="email" required>
+                                <label for="" class="contact-label">Email</label>
+                                <span></span>
+                            </div>
+                            <!-- contact content -->
+                            <div class="contact-content">
+                                <input type="text" id="subject-box" class="contact-input" name="_subject">
+                                <label for="" class="contact-label">Subject</label>
+                                <span></span>
+                            </div>
+                            <!-- contact content -->
+                            <div class="contact-content contact-area">
+                                <textarea name="message" id="message-box" cols="30" rows="10"
+                                    class="contact-input"></textarea>
+                                <label for="" class="contact-label">Message</label>
+                                <span></span>
+                            </div>
+                        </div>
+                        <a href="#" type="submit" class="btn btn-default">Send Message</a>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <!--=============== Theme Customize ===============-->
+        <div class="customize-theme">
+            <div class="card">
+                <h2>Customize your view</h2>
+                <p>Manage your font size, color, and background</p>
+                <!-- font size -->
+                <div class="font-size">
+                    <h3>Font Size</h3>
+                    <div>
+                        <h6>Aa</h6>
+                        <div class="choose-size">
+                            <span class="font-size-1"></span>
+                            <span class="font-size-2"></span>
+                            <span class="font-size-3 active"></span>
+                            <span class="font-size-4"></span>
+                        </div>
+                        <h3>Aa</h3>
+                    </div>
+                </div>
+                <!-- color -->
+                <div class="color">
+                    <h3>Color</h3>
+                    <div class="choose-color">
+                        <span class="color-1"></span>
+                        <span class="color-2"></span>
+                        <span class="color-3 active"></span>
+                        <span class="color-4"></span>
+                        <span class="color-5"></span>
+                    </div>
+                </div>
+                <!-- background -->
+                <div class="background">
+                    <h3>background</h3>
+                    <div class="choose-bg">
+                        <div class="bg-1 active">
+                            <span></span>
+                            <h5 for="bg-1">Light</h5>
+                        </div>
+                        <div class="bg-2">
+                            <span></span>
+                            <h5 for="bg-2">Dim</h5>
+                        </div>
+                        <div class="bg-3">
+                            <span></span>
+                            <h5 for="bg-3">Dark</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--=============== SWIPER JS ===============-->
+        <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+        <!--=============== JS ===============-->
+        <script src="assets/js/main.js"></script>
+</body>
+
+</html>
