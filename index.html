@@ -1,3 +1,5 @@
+<?php include 'assets/backend/email.php';?>
+ 
 <!DOCTYPE html>
 <html lang="en">
 
@@ -129,7 +131,7 @@
                                         and AI. </p>
                                     </p>
                                     <div>
-                                        <a href="https://docs.google.com/document/d/1bZC4Gkk2ksQnjH2OO_HcICDkXTGoOeXWqJUbqXS6jU8/edit?usp=sharing"
+                                        <a href="https://drive.google.com/file/d/1aCQE0C2WldcsgjUG3wDCVSz5vcVnkUfl/view?usp=sharing"
                                             class="btn btn-default">Download CV</a>
                                     </div>
                                 </div>
@@ -593,9 +595,14 @@
                         </div>
                     </div>
                     <!-- contact form -->
-                    <form action="" class="contact-form padd-15" method="POST">
+                    <form action="assets/backend/email.php" class="contact-form padd-15" method="POST">
                         <!-- Formsubmit -->
                         <div class="contact-inputs">
+                            <div class="contact-content">
+                                <input type="text" id="subject-box" class="contact-input" name="name">
+                                <label for="" class="contact-label">Name</label>
+                                <span></span>
+                            </div>
                             <!-- contact content -->
                             <div class="contact-content">
                                 <input type="email" class="contact-input" name="email" required>
@@ -604,8 +611,13 @@
                             </div>
                             <!-- contact content -->
                             <div class="contact-content">
-                                <input type="text" id="subject-box" class="contact-input" name="_subject">
+                                <input type="text" id="subject-box" class="contact-input" name="subject">
                                 <label for="" class="contact-label">Subject</label>
+                                <span></span>
+                            </div>
+                            <div class="contact-content">
+                                <input type="text" id="phone-box" class="contact-input" name="tel">
+                                <label for="" class="contact-label">Phone Number</label>
                                 <span></span>
                             </div>
                             <!-- contact content -->
